@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.swift_version = '5'
   s.requires_arc  = true
 
-  s.dependency 'Alamofire'
+  s.dependency 'Alamofire', '>= 5.0.0'
 
 end
